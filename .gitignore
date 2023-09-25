@@ -1,0 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/fruit_juice/fruit_juice/fruit_juice.dbmdl
+/fruit_juice/fruit_juice/fruit_juice.jfm

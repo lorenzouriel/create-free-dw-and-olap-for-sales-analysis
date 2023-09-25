@@ -1,0 +1,821 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="36450c62-558c-4c77-9fc0-99ab1f498617" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>PRESIDENCIA</ID>
+  <Name>PRESIDENCIA</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="c39a467c-9583-4dbd-9060-f27d22006a09">
+      <ID>Tempo</ID>
+      <Name>Tempo</Name>
+      <DimensionID>Tempo</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="d467bae5-dbb9-46c8-8d45-eebf80258f47">
+          <AttributeID>Cod Dia</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="71d58fe3-5bc8-4136-bf83-1c2ce4b8615f">
+          <AttributeID>Data</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="252bee36-28ca-46fb-aaaa-cb8a62cbca08">
+          <AttributeID>Cod Semana</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="eed00a9a-4142-4554-b85e-27e074893a78">
+          <AttributeID>Nome Dia Semana</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8a339ab5-bfe3-44ee-871a-c8f1c37be86a">
+          <AttributeID>Cod Mes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="aff1dde6-5cd3-4e20-9718-813b284b6a5a">
+          <AttributeID>Nome Mes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="427c005a-4207-4c87-893f-52ee8e0eac40">
+          <AttributeID>Cod Mes Ano</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="75bd75c1-ac29-404e-9472-9dae49e3e7ee">
+          <AttributeID>Nome Mes Ano</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="42eeb10f-32c0-49ac-be1c-ceba48a7618c">
+          <AttributeID>Cod Trimestre</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="18961555-1565-4e68-b5a8-94f51a1b5681">
+          <AttributeID>Nome Trimestre</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2fb68f17-2671-4e11-9df2-b759ccb56c61">
+          <AttributeID>Cod Trimestre Ano</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8562d52f-c996-4c1a-978c-4252a3491b4a">
+          <AttributeID>Nome Trimestre Ano</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b259ef79-3ff7-428e-8346-484ad469a124">
+          <AttributeID>Cod Semestre</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0265c86c-397a-4d32-8f6d-cc57d24ec243">
+          <AttributeID>Nome Semestre</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a9bf1d3a-f7bb-4a56-b736-6667c663a01e">
+          <AttributeID>Cod Semestre Ano</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fab7e46b-7950-4821-9983-d8964918edb2">
+          <AttributeID>Nome Semestre Ano</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="610c95bc-d95c-47b2-96ff-f566cfae70a4">
+          <AttributeID>Ano</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="84fd081a-b296-43bd-bae2-3db593a28efd">
+          <AttributeID>Tipo Dia</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="cf29178f-8322-458d-9c4e-35c39ee0fe02">
+          <HierarchyID>Hierarchy 1</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="c4983b6c-7cca-404f-9dd1-6ea8af318150">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="31430262-dc52-4438-b107-8c72fe032d62">
+      <ID>Fabrica</ID>
+      <Name>Fabrica</Name>
+      <DimensionID>Fabrica</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="b0b801a8-d051-46d5-b354-6ed96411d89d">
+          <AttributeID>Cod Fabrica</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3a91584e-6247-475d-888a-2c727c115da8">
+          <AttributeID>Desc Fabrica</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="688d6e40-1f83-4785-abb4-9aec719de8e0">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="286ca2fc-9c36-420f-b221-fd49ece0644b">
+      <ID>Cliente</ID>
+      <Name>Cliente</Name>
+      <DimensionID>Cliente</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="1bec813e-4c30-4e14-bf9a-5b26cf95efe9">
+          <AttributeID>Cod Cliente</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0d155ddb-f42c-4820-9d6f-f6f6f4e144e6">
+          <AttributeID>Desc Cliente</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8b479506-ff47-4be3-9ac6-e5e762023544">
+          <AttributeID>Cod Cidade</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="200ebf61-dfa8-4d23-aed6-9b2a74a169b7">
+          <AttributeID>Desc Cidade</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9e7283f9-609c-4dac-bb49-7e1341dc15c5">
+          <AttributeID>Cod Estado</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="40a9c450-70bf-4094-9d8f-168581ec95ae">
+          <AttributeID>Desc Estado</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b5c162ff-11bd-4e68-bc2b-9c9236e835cd">
+          <AttributeID>Cod Regiao</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cafde746-7c2a-4baa-91a3-8494fa82e018">
+          <AttributeID>Desc Regiao</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="92de4b96-bd06-4780-aa14-c43c9ea38ed1">
+          <AttributeID>Cod Segmento</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ed7d308d-0974-411d-889c-b827797acc36">
+          <AttributeID>Desc Segmento</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="b2856699-c589-480d-80ee-a95cbabfa5f6">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="e5e1d282-0052-4b19-be51-c9c294236e54">
+          <HierarchyID>Hierarchy 1</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="f7e78bb7-1a0c-49ad-8983-2ad92566bc1b">
+      <ID>Produto</ID>
+      <Name>Produto</Name>
+      <DimensionID>Produto</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="7c75a239-37d8-4d87-968d-46575ed6ac9d">
+          <AttributeID>Cod Produto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2baf9fbd-9108-40f4-85ac-e4f0982f63aa">
+          <AttributeID>Desc Produto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="55d41373-71a2-4338-9f6f-4c429df2ea08">
+          <AttributeID>Atr Tamanho</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="58ec792b-a17f-4577-81a9-6910df9aafd1">
+          <AttributeID>Atr Sabor</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="527b6fcd-2944-4e90-bde3-7363fba878f4">
+          <AttributeID>Cod Marca</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="74aee514-dc57-4cf4-be10-3b7d3d62dc65">
+          <AttributeID>Desc Marca</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7d4b2fa8-36fc-4442-9d9e-6b34599a07d4">
+          <AttributeID>Cod Categoria</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5c6f9b0f-bf76-4bc1-ba38-15ee2cb94d65">
+          <AttributeID>Desc Categoria</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="4a15e555-22ea-4d2c-810c-6cbefac634d4">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="dde7913b-ecdf-4aea-b5f4-2f0a53b0767a">
+      <ID>Organizacional</ID>
+      <Name>Organizacional</Name>
+      <DimensionID>Organizacional</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="8e18be7b-5276-46d6-b81d-1ffdf19f3f03">
+          <AttributeID>Cod Filho</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="96a4fed5-7e02-424b-9411-61a15537424e">
+          <AttributeID>Cod Pai</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="08003e03-2591-4414-b711-790d470d8b15">
+          <AttributeID>Desc Filho</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cdab9b49-d0fa-40db-ac2d-be649a7cc45d">
+          <AttributeID>Esquerda</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4db4af16-f685-4186-90ba-1440e763b773">
+          <AttributeID>Direita</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3261b34a-7f56-4334-8159-b1b9391dcd89">
+          <AttributeID>Nivel</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="cf636f45-ecda-48b3-9775-dbf72a7b2e52">
+      <ID>Fato 001</ID>
+      <Name>Fato 001</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="c6636b28-d11b-4e20-8457-3afbb5628ac2">
+          <ID>Faturamento</ID>
+          <Name>Faturamento</Name>
+          <Source dwd:design-time-name="f2e5df7f-0127-40fc-9c4f-b19c5070029d">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4c09428e-d7f7-4ef9-9f4f-ceaded392739">
+              <TableID>fact_Fato_001</TableID>
+              <ColumnID>Faturamento</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="12e9a979-0d26-408c-97eb-efc3d3007c57">
+          <ID>Imposto</ID>
+          <Name>Imposto</Name>
+          <Source dwd:design-time-name="6ef610f6-f2b7-4903-ad12-cc35d91070f4">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="152c7cfa-7d32-49c8-8432-211e6053d8a5">
+              <TableID>fact_Fato_001</TableID>
+              <ColumnID>Imposto</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="f0c86bf3-c7df-4aeb-8636-7d35c03c24f3">
+          <ID>Custo Variavel</ID>
+          <Name>Custo Variavel</Name>
+          <Source dwd:design-time-name="2f0598d5-6416-4ab7-b67b-c984cd02c75f">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4b2031d6-f365-4aed-9005-5e29581cd431">
+              <TableID>fact_Fato_001</TableID>
+              <ColumnID>Custo_Variavel</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="c15ff090-21cd-4900-825f-2ff1a13bd12e">
+          <ID>Quantidade Vendida</ID>
+          <Name>Quantidade Vendida</Name>
+          <Source dwd:design-time-name="6884c8e2-1ead-400e-9f0e-d73c9d07f1b4">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="7f597b74-e5c2-49f0-aac6-bb29fcb140ed">
+              <TableID>fact_Fato_001</TableID>
+              <ColumnID>Quantidade_Vendida</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="639bb367-d95a-4711-8522-343fbb8ee0c6">
+          <ID>Unidades Vendidas</ID>
+          <Name>Unidades Vendidas</Name>
+          <Source dwd:design-time-name="dbcea75b-c663-47f8-92da-18b60ff155a3">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f12f33c0-f4fc-4ac6-b235-639fd7571f8c">
+              <TableID>fact_Fato_001</TableID>
+              <ColumnID>Unidades_Vendidas</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="9a2ff6a7-5efe-493d-9f0e-ea5a7b4cf1ef">
+          <ID>Fato 001 Count</ID>
+          <Name>Fato 001 Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="9c3fa1d3-df72-4b25-a448-4b6fc8dc20bb">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="63455521-3a38-462a-b504-68b417a13493">
+              <TableID>fact_Fato_001</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="3caeffc0-7174-4717-91bc-d984ae7fab7e">
+          <CubeDimensionID>Tempo</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="a393fccd-5f48-446c-be3c-051ba75575df">
+              <AttributeID>Cod Dia</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="3ebbd816-ee60-4296-bcf7-319e55b5b968">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6452a598-2879-4e68-94c0-1ca8564d0b55">
+                    <TableID>fact_Fato_001</TableID>
+                    <ColumnID>Cod_Dia</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5a14039b-d892-4f84-95c2-9c424c9994ca">
+          <CubeDimensionID>Fabrica</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="1d307c04-4366-44cb-a263-e142e3b98a5d">
+              <AttributeID>Cod Fabrica</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c4302e9d-e11e-4914-9b53-472bf4a6dbda">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ae25003b-bb0a-4f6f-9562-19192aa90798">
+                    <TableID>fact_Fato_001</TableID>
+                    <ColumnID>Cod_Fabrica</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="0c250690-f628-4b90-9512-e6216d77e8ea">
+          <CubeDimensionID>Organizacional</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="edf84a64-4b8d-404b-a6b8-696cfe40bfb2">
+              <AttributeID>Cod Filho</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="7a9a0f86-d2cf-4f75-b0cb-c789a2306b60">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ffa74347-2de5-4824-80af-a4fd347a6a36">
+                    <TableID>fact_Fato_001</TableID>
+                    <ColumnID>Cod_Organizacional</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="be6de6ee-e9d6-4952-981a-d294a3d61c1f">
+          <CubeDimensionID>Cliente</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="8d8113ad-221d-464c-b5b7-87ae221e961d">
+              <AttributeID>Cod Cliente</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="6b356ce7-3fb8-4620-8417-1ea57f42d5fd">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="cf188b83-d4e5-49d8-b7f1-48f9ed499426">
+                    <TableID>fact_Fato_001</TableID>
+                    <ColumnID>Cod_Cliente</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5584b763-7076-4a98-8af4-9d7d3d3f3548">
+          <CubeDimensionID>Produto</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="2c9f43ff-aedf-46e6-b0da-484044068080">
+              <AttributeID>Cod Produto</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="b1a3df96-2c3b-4506-aa5f-2d3547a46cc7">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="65acdefd-152f-4209-9ec4-526e0babe5a1">
+                    <TableID>fact_Fato_001</TableID>
+                    <ColumnID>Cod_Produto</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="edaf736c-3d53-4fc0-bd4f-e1997a25b009">
+      <ID>Fato 003</ID>
+      <Name>Fato 003</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="1c32ab18-2c69-47d8-a103-62b222e3c786">
+          <ID>Custo Fixo</ID>
+          <Name>Custo Fixo</Name>
+          <Source dwd:design-time-name="579bde63-ad62-422b-9e06-542673630115">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b328629e-8817-4179-9f02-f467144c2271">
+              <TableID>fact_Fato_003</TableID>
+              <ColumnID>Custo_Fixo</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="d82a8549-f5a0-4f23-af0b-68dea3d62edb">
+          <ID>Fato 003 Count</ID>
+          <Name>Fato 003 Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="5542e9e0-837c-4f30-b220-735c31ccedd2">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="aa8c2391-025e-4fc8-b29f-6fbc3238297a">
+              <TableID>fact_Fato_003</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="7dd1991e-6e7d-413a-ada6-55d94770a6a6">
+          <CubeDimensionID>Tempo</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="5a270c68-8e03-4634-8771-2279be9e835d">
+              <AttributeID>Cod Dia</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="9393c33b-d974-4c4a-a44a-f085dfd3875f">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="67932165-06ac-4a41-bdc2-99265ed161b5">
+                    <TableID>fact_Fato_003</TableID>
+                    <ColumnID>Cod_Dia</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="fa6e6753-8011-4fc4-822d-4125755c60e0">
+          <CubeDimensionID>Fabrica</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="856e3964-f67e-49c2-853f-fcfbf8f3a6da">
+              <AttributeID>Cod Fabrica</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c8e2d0c0-bf1b-4e8f-9785-371f52c832e8">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="126d9f37-048c-4757-87eb-7890fcfdc942">
+                    <TableID>fact_Fato_003</TableID>
+                    <ColumnID>Cod_Fabrica</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="2493a8ed-bb83-436f-87f2-53d16c4cdc3f">
+      <ID>Fato 002</ID>
+      <Name>Fato 002</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="8a559c6f-41dd-46fb-9e6a-b9b0dd5e9244">
+          <ID>Frete</ID>
+          <Name>Frete</Name>
+          <Source dwd:design-time-name="90869680-a09c-4d18-b1ea-c0a2d7fe6eed">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="7b05c2e2-c6c2-4d45-bee8-26bd216c8b17">
+              <TableID>fact_Fato_002</TableID>
+              <ColumnID>Frete</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="eb4f9c4e-9cbc-438c-a1ab-7d7ae8781531">
+          <ID>Fato 002 Count</ID>
+          <Name>Fato 002 Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="01f54683-e7af-46b9-8b3a-879c3ed2fea8">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="b28bb85a-3e0f-46ea-a8a0-1c99659cafda">
+              <TableID>fact_Fato_002</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="a0b877f7-8596-45ee-b8cc-05e11e62190f">
+          <CubeDimensionID>Fabrica</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="37426bb0-ba1b-4c76-a67b-7924a8a6fa17">
+              <AttributeID>Cod Fabrica</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="f05ca8c0-c046-4f6b-a4e2-f8b0aa444e01">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3d082759-173a-437d-a326-7331c2e7062f">
+                    <TableID>fact_Fato_002</TableID>
+                    <ColumnID>Cod_Fabrica</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c382ea13-aa57-4503-9e08-7977d4a9bff0">
+          <CubeDimensionID>Cliente</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="ee0dc1a2-a34f-41b9-a05f-039237c75d41">
+              <AttributeID>Cod Cliente</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="2f5d072c-efb6-4122-bca4-18b583256c7b">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c9efb975-a897-423d-8591-8474d4206ac3">
+                    <TableID>fact_Fato_002</TableID>
+                    <ColumnID>Cod_Cliente</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="3987c6d5-b1bc-418c-af84-895a0ea73eeb">
+          <CubeDimensionID>Tempo</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="eac6b30d-d0bf-4a32-b52a-e1e7c7f852e5">
+              <AttributeID>Cod Dia</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="853d42c3-498d-498c-a124-c4b27d869f3a">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="90907c4c-0139-4eab-a1a7-c9135d67daa9">
+                    <TableID>fact_Fato_002</TableID>
+                    <ColumnID>Cod_Dia</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d50f894a-f08d-4782-bd87-e2de123331c7">
+          <CubeDimensionID>Produto</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="b2a114a6-4bdd-4678-9bdd-b83892131081">
+              <AttributeID>Cod Produto</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="0e2fdeeb-83fd-4ea4-8156-fa9356c8448a">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="595aab49-8c7e-4887-8f25-3220b5c6f9a9">
+                    <TableID>fact_Fato_002</TableID>
+                    <ColumnID>Cod_Produto</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="3a443594-889b-48ff-99cb-15a6f62201e9">
+      <ID>Fato 004</ID>
+      <Name>Fato 004</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="dd0e9909-54ff-4200-a8e0-b82894474cab">
+          <ID>Meta Faturamento</ID>
+          <Name>Meta Faturamento</Name>
+          <Source dwd:design-time-name="779f3a2c-e939-49bb-a291-6f6d999b4245">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="561036e2-ee17-4efd-9c14-02fd0933e22a">
+              <TableID>fact_Fato_004</TableID>
+              <ColumnID>Meta_Faturamento</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="6b007b70-b27c-461e-a007-f536eee90315">
+          <ID>Fato 004 Count</ID>
+          <Name>Fato 004 Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="739699bd-08c1-46d3-a49c-4db77b2c1373">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="fd7f62be-9a48-4047-b11a-86e4b5d36067">
+              <TableID>fact_Fato_004</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="123ff0eb-45f7-4df9-8c8b-bde82b13a14a">
+          <CubeDimensionID>Cliente</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="f0fcecd1-4b0d-4d2d-b2aa-57c81fc5d056">
+              <AttributeID>Cod Cliente</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="7725f6cb-5ade-436e-8c8e-bff3c342554e">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="80ebc87a-aada-41d2-bebf-de711e325f54">
+                    <TableID>fact_Fato_004</TableID>
+                    <ColumnID>Cod_Cliente</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c532d1e9-0d8f-4526-a979-41301707b178">
+          <CubeDimensionID>Produto</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="ff26001f-c480-4beb-9dd7-bd025ab9a443">
+              <AttributeID>Cod Produto</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="26fc1cdc-a477-42df-8f53-8fa0c26ba251">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9016f69b-9184-46c6-af20-21f6d6b08e17">
+                    <TableID>fact_Fato_004</TableID>
+                    <ColumnID>Cod_Produto</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="13c1e68f-b21c-466f-8daa-88f9d351872d">
+          <CubeDimensionID>Tempo</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="1e45950c-3ed2-4b8c-96f3-571aacc52ddb">
+              <AttributeID>Cod Dia</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="851af147-b00e-476f-b531-8d539f1c9e55">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f6465c43-cb68-4e48-8dfe-4a0df7de61bd">
+                    <TableID>fact_Fato_004</TableID>
+                    <ColumnID>Cod_Dia</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="1aa220c4-d55c-45be-b100-4b2be0d655b1">
+          <CubeDimensionID>Organizacional</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="b379ec1a-a7f9-4b64-b08d-afc1e8a03890">
+              <AttributeID>Cod Filho</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="18ae8887-45df-49ef-aacd-215a6c2786d1">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="85273487-8be9-45f2-a64a-bd448b6dedd4">
+                    <TableID>fact_Fato_004</TableID>
+                    <ColumnID>Cod_Organizacional</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="1722ccd7-4602-4b78-9683-ffb3397f1ebd">
+      <ID>Fato 005</ID>
+      <Name>Fato 005</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="f5980583-04cf-48ac-afdf-e6abaeef2415">
+          <ID>Meta Custo</ID>
+          <Name>Meta Custo</Name>
+          <Source dwd:design-time-name="713cab08-1338-459b-a952-751eaf210df4">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="6cb67959-0763-4c39-a10a-8f9b8fb4f468">
+              <TableID>fact_Fato_005</TableID>
+              <ColumnID>Meta_Custo</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="9726f2e5-9034-49f5-a9ef-df300cbc79b3">
+          <ID>Fato 005 Count</ID>
+          <Name>Fato 005 Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="aa797ceb-1002-4ac2-8b99-a4d8b26c17cb">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="75080100-d2b0-4a4d-b1a9-cdd6623328e1">
+              <TableID>fact_Fato_005</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="8c5bc775-42d1-4f23-9118-2a6ebb3b2865">
+          <CubeDimensionID>Fabrica</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="f894ed8a-f884-47ff-b6d0-986b7913d65f">
+              <AttributeID>Cod Fabrica</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="d4aa8fe9-3f33-419b-8dda-f4bce2283b7c">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="09031934-79e0-4f80-978d-8fd102cea872">
+                    <TableID>fact_Fato_005</TableID>
+                    <ColumnID>Cod_Fabrica</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="a25cb8dd-9458-40f5-8bc8-903d96c06dcb">
+          <CubeDimensionID>Tempo</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="f38fb2fc-d419-453f-a736-9017736ff798">
+              <AttributeID>Cod Dia</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="745da644-4d9e-4a41-a608-531e9b31d739">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8db49261-c223-4dda-8266-845147b92fd7">
+                    <TableID>fact_Fato_005</TableID>
+                    <ColumnID>Cod_Dia</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="eff2c52b-0cd9-4b6b-9080-c71ef52e53ea">
+          <CubeDimensionID>Produto</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="bab6a5b4-c280-4405-96e7-a13876a3a884">
+              <AttributeID>Cod Produto</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="4134b003-b87e-45a2-88aa-5c03d9152737">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="135ccc51-5f37-4811-8a2e-b370141dbda5">
+                    <TableID>fact_Fato_005</TableID>
+                    <ColumnID>Cod_Produto</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="b6a4992e-c42a-409f-8ad8-7c4ae95c1cba">
+    <DataSourceViewID>Fruit Juice</DataSourceViewID>
+  </Source>
+</Cube>
