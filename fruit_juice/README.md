@@ -49,3 +49,51 @@ A seguir, estão listadas as tabelas de Fatos:
 
 - dbo.SPMONTAESQDIR.sql - Procedure utilizada na criação e carregamento da tabela de dimensão Pai-Filho.
 
+
+---
+---
+---
+---
+---
+
+# Structure and Documentation - fruit_juice (Database Project)
+
+## Description
+Fruit Juice is a SQL database representing the fact and dimension tables created to serve the Data Warehouse of the Sucos de Frutas company. This project contains scripts that define the database infrastructure, from defining tables, fields, and data types to data insertion rules, keys, constraints, and more.
+
+Initially, it is important to clarify the relationships between the tables in the database. To facilitate understanding of how this develops, we use the diagram below:
+
+### **ERD**:
+
+![ERD](Documentation/assets/erd.png)
+
+### **Dimension Tables**:
+Below are the dimension tables:
+
+- dim.marca - Contains all brands related to products, part of a SnowFlake dimension.
+- dim.categoria - Contains all categories related to products, part of a SnowFlake dimension.
+- dim.produto - Holds information about the products sold by the company.
+- dim.cliente - Stores information about the customers related to the company.
+- dim.fabrica - Contains information about all factories related to the company's production.
+- dim.tempo - A time table used in Data Warehouses.
+- dim.organizacional - Holds information about management, part of a Parent-Child dimension.
+
+### **Fact Tables**:
+Below are the fact tables:
+
+- fact.Fato001 - Stores information about revenue, tax, cost, and units sold by the company.
+- fact.Fato002 - Contains information about shipping costs.
+- fact.Fato003 - Stores information about revenue goals.
+- fact.Fato005 - Stores information about cost goals.
+
+## **Schemas**
+
+| **Name** | **Comment** |
+| ---- | ------- |
+| dim | Created for Dimension Tables |
+| fact | Created for Fact Tables |
+| staging | Created for Auxiliary Tables |
+
+## Stored Procedures and Functions
+
+- dbo.SPMONTAESQDIR.sql - Procedure used in the creation and loading of the Parent-Child dimension table.
