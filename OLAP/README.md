@@ -1,6 +1,6 @@
 # Estrutura e Documentação - OLAP
 
-## Descrição do Projeto
+## Descrição
 
 Esta documentação tem como objetivo apresentar a arquitetura do solução Analysis Services Multidimensional and Data Mining Project que foi criada para atender as necessidades da empresa Sucos de Frutas.
 
@@ -25,4 +25,4 @@ Esta documentação tem como objetivo apresentar a arquitetura do solução Anal
 - Tempo.dim (Hierarquia do Mês / Hierarquia do Mês e Ano)
 
 #### Deploy dos Cubos e Hierárquias no Servidor Analysis Services
-- É realizado o deploy dos cubos e hierárquias criadas.
+- É realizado o deploy dos cubos e hierárquias criadas no servidor SSAS
