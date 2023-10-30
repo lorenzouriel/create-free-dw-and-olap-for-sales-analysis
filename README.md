@@ -1,4 +1,4 @@
-# Estrutura e Documentação do Projeto: Jornada Completa de Business Intelligence
+# Cubos OLAP para Análises em Tempo Real
 
 ## Descrição do Projeto
 
@@ -26,7 +26,7 @@ Ao longo deste documento, serão apresentados detalhes técnicos sobre o serviç
 ---
 ---
 
-# Project Structure and Documentation: Full Business Intelligence Journey
+# OLAP Cubes for Real-Time Analytics
 
 ## Project Description
 
