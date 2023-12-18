@@ -1,4 +1,4 @@
-# Cubos OLAP para Análises em Tempo Real
+# Criando um DW e um Cubo OLAP para Análises de Vendas
 
 ## Descrição do Projeto
 
@@ -26,7 +26,7 @@ Ao longo deste documento, serão apresentados detalhes técnicos sobre o serviç
 ---
 ---
 
-# OLAP Cubes for Real-Time Analytics
+# Creating a DW and an OLAP Cube for Sales Analysis
 
 ## Project Description
 
