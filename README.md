@@ -1,4 +1,4 @@
-# Criando um DW e um Cubo OLAP para Análises de Vendas
+# Estrutura e Documentação do Projeto: Jornada Completa de Business Intelligence
 
 ## Instalação e Configuração
 #### 1. Clone o repositório:
@@ -18,13 +18,7 @@ cd create-free-dw-and-olap-for-sales-analysis
 
 ## Descrição do Projeto
 
-<<<<<<< HEAD
 O projeto visa detalhar todas as etapas de um projeto de BI, vamos passar pelas planilhas, ETL, Bancos Relacionais, Cubos OLAP e o Power BI para análises performáticas.
-=======
-Esta documentação tem como objetivo apresentar a arquitetura do serviço **"Criando um DW e um Cubo OLAP para Análises de Vendas"**, de forma clara e objetiva, a fim de simplificar a compreensão de todos os seus componentes e funcionamento. O projeto visa detalhar todas as etapas de um projeto de BI, vamos passar pelas planilhas, ETL, Bancos Relacionais, Criação de um DW, Cubos OLAP e o Power BI para análises performáticas.
-
-Ao longo deste documento, serão apresentados detalhes técnicos sobre o serviço, sua estruturação e como cada parte se relaciona com as demais. A documentação será útil tanto para os desenvolvedores que trabalham no serviço, quanto para aqueles que desejam entender melhor como a tecnologia pode ser aplicada em seu setor. Além disso, a documentação foi projetada para atender às necessidades de diferentes públicos, desde os que possuem um conhecimento mais técnico em tecnologia até aqueles que possuem conhecimento limitado nessa área.
->>>>>>> 25151911833e8c72a6b1006fffcc1084117d82d8
 
 
 ### Pastas e Soluçoes:
@@ -56,7 +50,7 @@ Ao longo deste documento, serão apresentados detalhes técnicos sobre o serviç
 ---
 ---
 
-# Creating a DW and an OLAP Cube for Sales Analysis
+# Project Structure and Documentation: Full Business Intelligence Journey
 
 ## Installation and Configuration
 #### 1. Clone the repository:
@@ -76,14 +70,8 @@ cd create-free-dw-and-olap-for-sales-analysis
 
 ## Project Description
 
-<<<<<<< HEAD
 The project aims to detail all the stages of a BI project, covering spreadsheets, ETL, Relational Databases, OLAP Cubes, and Power BI for high-performance analysis.
 
-=======
-This document aims to present the architecture of the service **"Creating a DW and an OLAP Cube for Sales Analysis"**, in a clear and objective way, in order to simplify the understanding of all its components and operation. The project aims to detail all stages of a BI project, we will go through spreadsheets, ETL, Relational Banks, Creation of a DW, OLAP Cubes and Power BI for performance analysis.
-
-Throughout this document, technical details will be presented about the service, its structuring and how each part relates to the others. The documentation will be useful both for developers working on the service and for those who want to better understand how the technology can be applied in their sector. Furthermore, the documentation was designed to meet the needs of different audiences, from those who have more technical knowledge of technology to those who have limited knowledge in this area.
->>>>>>> 25151911833e8c72a6b1006fffcc1084117d82d8
 
 ### Folders and Solutions:
 
@@ -96,7 +84,6 @@ Throughout this document, technical details will be presented about the service,
 | [Sources](Sources/README.md) | Stores all data sources used in extraction. Also includes a backup of the relational database  |
 | [Dashboard](Dashboard/README.md) | Assets used in the creation of the dashboard  |
 | [Tutorials](Tutorials/README.md) | A tutorial has been provided for project enthusiasts to replicate and learn |
-<<<<<<< HEAD
 
 
 ## Techs / Tools
@@ -110,5 +97,3 @@ Throughout this document, technical details will be presented about the service,
 
 ## Architecture
 ![Arquitetura](/Tutorials/Architecture%20v3.png)
-=======
->>>>>>> 25151911833e8c72a6b1006fffcc1084117d82d8
