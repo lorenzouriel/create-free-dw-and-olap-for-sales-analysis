@@ -1,4 +1,4 @@
-# Estrutura e Documentação do Projeto: Jornada Completa de Business Intelligence
+# Estrutura e Documentação do Projeto
 
 ## Instalação e Configuração
 #### 1. Clone o repositório:
