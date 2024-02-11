@@ -35,8 +35,8 @@ O projeto visa detalhar todas as etapas de um projeto de BI, vamos passar pelas 
 
 ## Ferramentas / Tecnologias
 - Excel
-- Visual Studio 2019 (Database Project, SSIS, SSAS)
-- SQL Server (SGBD / SSAS)
+- Visual Studio 2019 (Database Project, Integration Services, Multidimensional Analysis Services)
+- SQL Server (SGBD / SSIS / SSAS)
 - Power BI
 - Power BI Serviço
 - Figma
@@ -88,8 +88,8 @@ The project aims to detail all the stages of a BI project, covering spreadsheets
 
 ## Techs / Tools
 - Excel
-- Visual Studio 2019 (Database Project, SSIS, SSAS)
-- SQL Server (SGBD / SSAS)
+- Visual Studio 2019 (Database Project, Integration Services, Multidimensional Analysis Services)
+- SQL Server (SGBD / SSIS / SSAS)
 - Power BI
 - Power BI Service
 - Figma
