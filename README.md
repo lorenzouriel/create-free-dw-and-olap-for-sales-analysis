@@ -50,7 +50,7 @@ O projeto visa detalhar todas as etapas de um projeto de BI, vamos passar pelas 
 ---
 ---
 
-# Project Structure and Documentation: Full Business Intelligence Journey
+# Project Structure and Documentation
 
 ## Installation and Configuration
 #### 1. Clone the repository:
